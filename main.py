@@ -1,12 +1,34 @@
+from book import show_book, save_book, load_book
+import os
+from dotenv  import load_dotenv
+
+load_dotenv()
 name = input("whats your name : ")
 print("nice to meat you")
 
+admin_mode = input("do you want admin mode yes/no : ")
+
+
+if admin_mode == "yes":
+
+        admin_password = input("pleas enter admin password : ")
+        
+        if admin_password == os.getenv("ADMIN_PASSWORD"):
+                print("admin mode")
+        else : 
+                 print("worng")
+
+else:
+        print("you may countinue")
+        
+        
 how_many_book = int(input("how many book do you want : "))
-books = []
+
+books = load_book()
 
 for i in range(how_many_book):
-    book_name = input("please enter a book name : ")
-   
-    books.append(book_name)
-
-print(f"your book is {books}")
+        book_name = input("please enter a book name : ")
+        books.append(book_name)
+        
+show_book(books)
+save_book(books)
