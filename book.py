@@ -1,7 +1,10 @@
 import json
+import os
 def show_book(books):
     for book in books:
-        print(f"your book is {book}")
+         print(book["book_name"] , "-", book["priority"])
+
+
 
 def save_book(books):
     with open("book.json", "w", encoding="utf-8") as File:

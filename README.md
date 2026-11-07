@@ -36,7 +36,7 @@ personal_book_manager/
 
 |_🌺file🌺_|_🌺describtion🌺_|
 |---|---|
-| 🌺`main.py` | *_`🌺main.py` is the main file it have the main things in it but not the book stuff_*|
+| 🌺`main.py` | *_`🌺main.py` is the main file it have the main things in it but not the book stuff and it will show the priority _*|
 |🌺`book.py`|*_`🌺book.py` is the file that have book stuff in it anything that is about book_*|
 |🌺`.env.example `| *_🌺it show `admin_pass=yourpassword` and you need to pust the password their_*|
 |🌺`requirments.txt` |*_🌺it list the package and the thing that you need for example `python-dotenv`_*|
