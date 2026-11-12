@@ -27,7 +27,7 @@ how_many_book = int(input("🌺 how many book do you want : "))
 books = load_book()
 
 for i in range(how_many_book):
-    book_name = input("🌺 enter a task: ")
+    book_name = input("🌺 enter a book: ")
     priority = input("🌺 enter a priority (low medium high) : ").lower()
     book = {
         "book_name": book_name,
