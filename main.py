@@ -4,7 +4,7 @@ from dotenv  import load_dotenv
 
 load_dotenv()
 name = input("🌺 whats your name : ")
-print("🌺 nice to meat you 🌺")
+print("🌺 nice to see you", name,"🌺")
 
 admin_mode = input("🌺 do you want admin mode yes/no : ")
 
