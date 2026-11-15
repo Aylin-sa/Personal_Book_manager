@@ -3,8 +3,9 @@ import os
 def show_book(books):
     for book in books:
          print(book["book_name"] , "-", book["priority"])
+         print(" your total bools and prioritys")
 
-
+ 
 
 def save_book(books):
     with open("book.json", "w", encoding="utf-8") as File:
