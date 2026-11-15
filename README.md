@@ -1,5 +1,5 @@
 # 🌺 Personal Book Manager🌺
-🌺A symple python project that you could enter a book and your name it will save and show to you the next time 🌺
+🌺A symple python project that you could enter a book and your name and your priority it will save and show to you the next time 🌺
 
 🌺 ![badge](https://img.shields.io/badge/python-3.13.5-pink
 ) 🌺
