@@ -3,7 +3,7 @@ import os
 def show_book(books):
     for book in books:
          print(book["book_name"] , "-", book["priority"])
-         print(" your total bools and prioritys")
+         print(" your total books and prioritys")
 
  
 
